@@ -1,6 +1,6 @@
 class Person
   beyonce = Person.new
   def name =("Beyonce")
-    @name 
+    @name =
   end 
 end 
