@@ -1,3 +1,3 @@
 class Person
-  bey
+  beyonce = Person.new
 end 
