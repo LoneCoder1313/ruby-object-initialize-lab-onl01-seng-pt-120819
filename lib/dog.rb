@@ -17,14 +17,3 @@ class Dog
   end 
 end 
   
-  fido = Dog.new("Fido") # => #<Dog:0x00564f20b62040 @name="Fido", @breed="Mutt">
-  
-  # github solutions:
-  
-class Dog
-  def initialize(name, breed = "Mut")
-    @name = name
-    @breed = breed
-  end
-end
-fido = Dog.new("Fido")
