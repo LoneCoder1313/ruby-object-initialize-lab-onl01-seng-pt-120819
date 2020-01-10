@@ -1,6 +1,7 @@
 class Person
-  beyonce = Person.new
-  def name = ()
-    @name =
-  end 
+  def initialize (persons_name)
+    @name = persons_name
 end 
+
+ def name = (persons_name)
+   
